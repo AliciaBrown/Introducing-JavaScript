@@ -1,62 +1,73 @@
-<!DOCTYPE hmtl>
+<!DOCTYPE html>
 
-<html>
+ <html>
 
-    <head>
- 
-       <title>Introducing JavaScript</title>
-       
-       <link rel="stylesheet" type="text/css" href="bootstrap.css">
+   <head>
 
-    </head>
+     <title>Introducing JavaScript</title>
+     
+     <link rel="stylesheet" type="text/css" href="bootstrap.css">
 
-    <body>
+         
+     <script> 
 
-     <h1>Introducing JavaScript</h1>
+       var Name="JavaScript";
 
-      <script>
+       var Nickname="JS";
 
+       var Extension=".js";
 
-           var Name="JavaScript";
+       var Creator="Brandon Eich";
 
-           var Nickname="JS";
-
-           var Extension=".js";
-
-           var Creator="Brandon Eich";
-
-           var Year="1995"
-
-       myFunction()
-    {
-
-           document.getElementById("name").innerHTML=Name;
-  
-           document.getElementById("Nickname").innerHTML=Nickname;
-
-           document.getElementById("Extension").innerHTML=Extension;
-
-           document.getElementById("Creator").innerHTML=Creator;
-
-           document.getElementById("Year").innerHTML=Year;
-     }
-
+       var Year="1995";
 
      </script>
 
-      <button type="button" onclick="myFunction()">Meet JavaScript</button>
+   </head>
+
+   <body>
+
+     <h1>Introducing JavaScript</h1>
+
+     
+     <script>
+
+     function myFunction()
+
+      {
+
+         document.getElementById("name").innerHTML=Name;
+
+         document.getElementById("nickname").innerHTML=Nickname;
+
+         document.getElementById("extension").innerHTML=Extension;
+
+         document.getElementById("creator").innerHTML=Creator;
+     
+         document.getElementById("year").innerHTML=Year;
+ 
+      }
+
+     </script>
+
+          
 
 
-       <p>Name:<span id="name"></span></p>
+     <button type="button" onclick="myFunction()">Meet JavaScript</button>
 
-       <p>Nickname:<span id="JavaScript"></span></p>
 
-       <p>Extension:<span id="JavaScript"></span></p>
+     <p>Name: <span id="name"></span></p>
 
-       <p>Creator:<span id="JavaScript"></span></p>
+     <p>Nickname: <span id="nickname"></span></p>
 
-       <p>Year:<span id="JavaScript"></span></p>
+     <p>Extension: <span id="extension"></span></p>
 
-    </body>
+     <p>Creator: <span id="creator"></span></p>
 
-</html>
+     <p>Year: <span id="year"></span></p>
+
+     
+
+   </body>
+
+ </html>
